@@ -1,0 +1,12 @@
+# cmnd.log - Commands used
+
+mkdir a3
+cd a3
+nano grades.csv
+nano grader.awk
+awk -f grader.awk grades.csv > a3.txt
+git init
+git add .
+git commit -m "Add a3 assignment files"
+git remote add origin https://github.com/Fizza6/cs131
+git push -u origin master
