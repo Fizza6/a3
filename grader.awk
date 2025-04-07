@@ -1,5 +1,3 @@
-# grader.awk - Computes total, average, pass/fail status
-# Also identifies top and lowest scoring students
 
 function calc_avg(total, count) {
     return total / count
